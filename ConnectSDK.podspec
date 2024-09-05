@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
                                   #define CONNECT_SDK_VERSION @"#{s.version}"
 
                                   // Uncomment this line to enable SDK logging
-                                  //#define CONNECT_SDK_ENABLE_LOG
+                                  #define CONNECT_SDK_ENABLE_LOG
 
                                   #ifndef kConnectSDKWirelessSSIDChanged
                                   #define kConnectSDKWirelessSSIDChanged @"Connect_SDK_Wireless_SSID_Changed"
