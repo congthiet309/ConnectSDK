@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.1"
   
   # This is where you point to your repository on GitHub or another source
-  s.source       = { :git => "https://github.com/dvt282/Connect-SDK-iOS.git",
+  s.source       = { :git => "https://github.com/congthiet309/ConnectSDK.git",
                      :tag => s.version }
 
   s.dependency 'google-cast-sdk', '2.10.4.1'
